@@ -1,0 +1,138 @@
+*{
+	margin: 1px;
+	padding: 0;
+}
+
+body {
+width: 100%;
+height: 90%;
+background: linear-gradient(#F1F1F1, #797979);
+}
+
+
+.caixa {
+	display: inline;
+	font-style: normal;
+	font-size: 30px;
+	width: 40%;
+	font-weight: bold;
+	margin: 0;
+}
+
+.caixa p{
+	margin: 0 auto;
+}
+
+.caixa h1 {
+	font-size: 10px;
+	font-weight: normal;
+	margin: 0 50% 0 0;
+}
+
+main {
+margin-top: 3px;
+margin-left: 30%;
+}
+
+p {
+	font-weight: bold;
+}
+h1 {
+	font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.0rem;
+    text-align: center;
+    color: #000000;
+    opacity: 60%;
+
+}
+
+.info {
+	margin-top: 1em;
+	
+}
+.text-area {
+
+	display: flex;
+	justify-content: space-between;
+	background: #89FFF0;
+	text-transform: lowercase;
+	border: 2px solid cornflowerblue;
+}
+
+.mensagem {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #89FFF0;
+	border: 2px solid cornflowerblue;
+		
+}
+
+.botaoencrip, .botaodesencrip  {
+
+	width: 280px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid darkblue;
+	border-radius: 20px; 
+	cursor: pointer;
+}
+
+.botaocopiar {
+	
+	border: 2px solid darkblue;
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	width: 280px;
+	height: 40px;
+	margin-bottom: 10%;
+	cursor: pointer;
+	margin: 0;
+	margin-left: 10%;
+}
+
+.botaoencrip:hover{
+	border: 5px solid gray;
+	color: darkblue;
+	transition: 0.3s all;
+}
+
+.botaodesencrip:hover{
+	border: 5px solid gray;
+	color: darkblue;
+	transition: 0.5s all;
+}
+
+.botaocopiar:hover{
+	border: 5px solid gray;
+	color: darkblue;
+	transition: 0.5s all;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    margin-top: 10px ;
+    background: #1B88E0;
+    color: #7c0160;
+}
+
+.rodape h3{
+    font-size: 16px;
+    color: white;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.icons ion-icon:hover{
+	color: gray;
+}
